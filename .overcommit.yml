@@ -1,0 +1,8 @@
+PreCommit:
+  ALL:
+    exclude:
+      - 'node_modules/**'
+      - '.editorconfig'
+      - '.gitattributes'
+      - '.gitignore'
+      - 'package.json'

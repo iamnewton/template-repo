@@ -1,0 +1,27 @@
+{
+  "name": "%%REPO%%",
+  "description": "%%DESCRIPTION%%",
+  "version": "0.1.0",
+  "author": "Newton Koumantzelis <chrisopedia@users.noreply.github.com>",
+  "keywords": [],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamnewton/%%REPO%%"
+  },
+  "scripts": {
+    "dist": "echo No dist specified &>/dev/null",
+    "test": "eslint index.js"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0"
+  }
+}
